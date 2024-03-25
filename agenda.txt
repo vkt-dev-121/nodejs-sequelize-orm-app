@@ -1,0 +1,19 @@
+# Nodejs Todo App With Sequelize ORM with MySql Database
+ORM - Object Relational Mapping
+
+In this tutotial we will learn about, migration, models ,seeder in mysql Database.
+
+
+
+
+# Commands
+npm install express sequelize mysql2 body-parser sequelize-cli
+  -- database migration Command for creating table
+    npx sequelize-cli migration:generate --name create-todos
+    npx sequelize-cli db:migrate
+
+  -- database seed command for dumping data in table
+    npx sequelize-cli seed:generate --name todos-data
+    npx sequelize-cli db:seed:all
+
+

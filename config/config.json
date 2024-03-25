@@ -1,0 +1,16 @@
+{
+    "development": {
+      "username": "root",
+      "password": "",
+      "database": "todo_app_db",
+      "host": "localhost",
+      "dialect": "mysql"
+    },
+    "test": {
+      
+    },
+    "production": {
+      
+    }
+  }
+  
